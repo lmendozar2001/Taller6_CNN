@@ -1,8 +1,22 @@
-tensorflow==2.15.0
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.8.4
-seaborn==0.13.2
-scikit-learn==1.4.2
-ipykernel==6.29.4
-notebook==7.2.0
+# ============================================================
+# Dependencias del Taller 6 — CNN CIFAR-10
+# Probado con Python 3.13 y 3.14 en Windows
+# ============================================================
+
+# PyTorch (CPU) — versiones compatibles entre sí
+# Para GPU con CUDA 12.x reemplazar +cpu por +cu121
+torch==2.9.0+cpu
+torchvision==0.24.0+cpu
+
+# Ciencia de datos
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# Visualización
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Jupyter
+notebook>=7.0.0
+ipykernel>=6.29.0
