@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Modelos guardados (pueden ser muy pesados)
+*.h5
+*.keras
+saved_model/
+
+# Datasets descargados (CIFAR-10 se descarga automáticamente)
+*.npz
+*.pkl
+*.tar.gz
+*.zip
+data/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+runs/
